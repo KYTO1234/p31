@@ -66,7 +66,7 @@ function draw() {
 
   //create the particles using frameCount
 if(frameCount%60===0){
-  particles.push(new Particles(350-450,10,10))
+  particles.push(new Particles(random(350,450),10,10))
 }
 
   //display the particles 
